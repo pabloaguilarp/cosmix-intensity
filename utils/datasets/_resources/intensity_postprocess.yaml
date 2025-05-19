@@ -1,0 +1,41 @@
+# Intensity postprocessing parameters
+# This file contains the parameters for the intensity postprocessing module
+
+# Default parameters for traffic sign (label 18)
+traffic_sign:
+  label: 18
+  dbscan_epsilon: 0.5
+  dbscan_min_points: 5
+  use_two_distributions: true
+  mean_dark: 0.29
+  std_dev_dark: 0.11
+  mean_light: 0.77
+  std_dev_light: 0.11
+  light_prob: 0.4
+
+# Default parameters for vegetation (label 14)
+vegetation:
+  label: 14
+  dbscan_epsilon: 0.5
+  dbscan_min_points: 5
+  use_two_distributions: false
+  mean: 0.2943412
+  std_dev: 0.14369784
+
+# Default parameters for building (label 12)
+building:
+  label: 12
+  dbscan_epsilon: 0.5
+  dbscan_min_points: 5
+  use_two_distributions: false
+  mean: 0.36240983
+  std_dev: 0.15863603
+
+# Default parameters for person (label 5)
+person:
+  label: 5
+  dbscan_epsilon: 0.5
+  dbscan_min_points: 5
+  use_two_distributions: false
+  mean: 0.33772126
+  std_dev: 0.1704033

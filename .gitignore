@@ -1,0 +1,12 @@
+# PyCharm
+.idea/
+
+# Log files
+*.o
+*.e
+*.log
+
+# Data
+*.csv
+*.png
+*.txt
